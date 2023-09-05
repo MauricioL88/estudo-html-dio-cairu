@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Seleção</title>
+    <style>
+        *{
+            margin: 0%;
+            padding: 0%;
+        }
+    </style>
+</head>
+<body>
+    <div align="center">
+        <h1>Formulário de Cadastro</h1>
+        <form>
+            <label>Nome: </label><input type="text" name="name"><br>
+            <label>Cargo: </label>
+            <select name="role">
+                <option value="">Selecione o cargo:</option>                
+                <option value="administrativo">Aux. Administrativo</option>
+                <option value="assistente">Assistente Adminstrativo</option>            
+                <option value="desenvolvedor">Desenvolvedor</option>
+                <option value="analista">Analista</option>            
+                <option value="engenheiro">Engenheiro de Software</option>
+                <option value="gerente">Gerente</option>
+            </select>
+            <br>
+            <label>Assunto: </label><input type="text" name="subject"><br>
+            <label>Mensagem: </label><textarea name="mensagem" cols="30" rows="10"></textarea><br>
+            <button type="submit">Enviar</button>
+        </form>
+    </div>    
+</body>
+</html>
