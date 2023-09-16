@@ -30,6 +30,7 @@ body {
     text-align: center;
     font-weight: 700;
     padding-top: 60px;
+    padding-bottom: 100px;
 }
 
 #nav {
@@ -50,6 +51,11 @@ body {
     background-color: burlywood;
 }
 
+.box {
+    display: flex;
+    justify-content: center;
+}
+
 .imagem {
     width: 100%;
 }
@@ -67,6 +73,11 @@ body {
     height: 200px;
     background-color: orange;
     margin-top: 20px;
+    color: whitesmoke;
+    font-size: 16px;
+    text-align: center;
+    font-weight: 300;
+    padding-top: 150px;
 }
 
 .menu {
@@ -84,7 +95,7 @@ a {
     text-decoration: none;
 }
 
-a:hover {
+.barra:hover {
     color: gray;
     border: solid 2px gray;
 }
