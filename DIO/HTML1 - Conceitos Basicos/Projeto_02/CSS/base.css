@@ -1,0 +1,115 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: black;
+    display: flex;
+    justify-content: center;
+}
+
+.wrapper {
+    width: 1200px;
+    display: flex;
+    margin: 0 auto;
+    background-color: black;
+}
+.main {
+    display: flex;
+    flex-flow: column;
+    width: 85%;
+}
+.menu {
+    margin-top: 15px;
+    width: 20%;
+    background-color: black;
+    padding: 10px 20px 0px;
+}
+
+.links {
+    color: white;
+    font-size: 20px;
+    text-decoration: none;
+}
+
+.links:hover {
+    color: gray;
+    border: solid 2px white;
+}
+
+.header {
+    background-color: black;
+    min-height: 100px;
+    margin-top: 15px;
+    display: flex;
+}
+
+.cabecalho {
+    margin-left: 5px;
+    border: 5px solid white;
+    color: white;
+    text-align: center;
+    padding: 70px;
+    width: fit-content;
+}
+
+.content {
+    background-color: black;
+    min-height: 300px;
+    padding: 20px;
+}
+
+.footer {
+    background-color: black;
+    min-height: 150px;
+    border: 5px solid white;
+    margin-bottom: 3px;
+    color: white;
+    position: relative;
+    text-align: center;
+}
+
+#info {    
+    position: absolute;
+    top: 35%;
+    left: 40%;   
+    text-align: center;
+}
+
+#contato {    
+    position: absolute;
+    top: 20%;
+    left: 35%;   
+    text-align: center;
+}
+
+.tabela {
+    background-color: linen;
+    width: fit-content;
+    border: solid 4px darkgray;
+    border-radius: 5px;
+    padding: 15px;
+    margin-top: 15px;
+    margin-left: 200px;
+}
+
+table td, th {
+    padding: 10px;
+}
+
+table thead th{
+    background-color:gray;
+    color: whitesmoke;
+}
+
+table tbody tr:nth-child(even) {
+    background-color: lightgray;
+}
+
+table tbody tr:hover td{
+    background-color: black;
+    color: white;
+    cursor: pointer;
+}
