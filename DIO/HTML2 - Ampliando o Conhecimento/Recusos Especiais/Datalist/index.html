@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Recursos Especiais - Datalist</title>
+</head>
+<body>
+    <!-- Caixa comum de seleção -->
+    <select name="browsers">
+        <option value="">Selecione um navegador</option>
+        <option value="chrome">Google Chrome</option>
+        <option value="firefox">Mozila Firefox</option>
+        <option value="edge">Microsoft Edge</option>
+        <option value="safari">Safari</option>
+        <option value="opera">Opera</option>
+    </select>
+    <br>
+    <br>
+    <br>
+
+    <!-- Usando o datalist -->
+    <input list="browsers" type="search" name="pesquisa" />
+    <datalist id="browsers">
+        <option value="chrome">Google Chrome</option>
+        <option value="firefox">Mozila Firefox</option>
+        <option value="edge">Microsoft Edge</option>
+        <option value="safari">Safari</option>
+        <option value="opera">Opera</option>
+    </datalist>
+</body>
+</html>

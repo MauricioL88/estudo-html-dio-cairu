@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Recursos Especiais - Meter_Progress</title>
+</head>
+<body>
+
+    <!-- Para definir capacidade, temperatura, metricas em geral...-->
+    <meter min="0" max="100" value="40"></meter>
+    
+    
+    <progress id="progress" min="0" max="100" value="0"></progress>
+    <script>
+        let progress = document.getElementById('progress');
+        
+        const interval = setInterval(() => {
+            progress.value += 10;
+            if(progress.value >= 100)
+                clearInterval(interval);
+        }, 1000);
+    </script>
+</body>
+</html>
